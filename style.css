@@ -1,0 +1,26 @@
+body{
+  margin: auto;
+  max-width: 500px;
+}
+h1, h2 {
+  color: orange;
+}
+form  {
+  display: grid;
+  grid-template-columns: 100px minmax(auto, 300px);
+  background-color: lightgrey;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+}
+form label{
+  grid-column: 1 / 2;
+}
+form input, button{
+  grid-column: 2 / 3;
+}
+
+ul li{
+    padding-bottom: 5px;
+}
