@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Page title</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="myScript.js"></script>
+
+  </script>
+  </head>
+  <body>
+    <h1>TODO Liste</h1>
+    <p>Dies ist eine TODO-Liste. Trage Name und Tätigkeit ein:</p>
+    <form>
+      <label for="name">Name:</label> <input id="name" type="text" name="name">
+      <label for="TODO">TODO:</label> <input id="TODO" type="text" name="TODO">
+      <!--<input type="submit" name="Submit" value="Submit">-->
+      <button type="button" name="button" onclick="storeEntries()">Submit</button>
+    </form>
+
+    <h2>Erfasste TODO's</h2>
+    <ul>
+        <div id="todolist"></div>
+    </ul>
+
+  </body>
+</html>
